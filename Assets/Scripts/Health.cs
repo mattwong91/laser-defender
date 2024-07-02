@@ -14,7 +14,7 @@ public class Health : MonoBehaviour
   AudioPlayer audioPlayer;
   ScoreKeeper scoreKeeper;
 
-  public int GetCurrentHealth() { return health; }
+  public int GetHealth() { return health; }
 
   void Awake()
   {
