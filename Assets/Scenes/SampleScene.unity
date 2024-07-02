@@ -263,6 +263,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shakeDuration: 0.45
   shakeMagnitude: 0.1
+--- !u!1 &553499765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 553499767}
+  - component: {fileID: 553499766}
+  m_Layer: 0
+  m_Name: Audio Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &553499766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553499765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16db731e78a09410cbd6938ffe8be2f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootingClip: {fileID: 8300000, guid: a6452bc83c85044a3b147a357681b885, type: 3}
+  shootingVolume: 0.4
+  explosionClip: {fileID: 8300000, guid: fc9f9771f5cb64447a9fd3a7523f4bf6, type: 3}
+  explosionVolume: 0.75
+--- !u!4 &553499767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553499765}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &843194706
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,3 +621,4 @@ SceneRoots:
   - {fileID: 7499890972904124482}
   - {fileID: 164791245}
   - {fileID: 1532806021}
+  - {fileID: 553499767}
