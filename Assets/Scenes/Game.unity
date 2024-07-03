@@ -831,7 +831,11 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: 38b3e23e70fec47fb9dcd45cbb419347, type: 2}
   - {fileID: 11400000, guid: 7c27d6b730e674d409f404bdf3b85b4c, type: 2}
-  timeBetweenWaves: 0
+  - {fileID: 11400000, guid: ae84b6c627db94beebbac0f3f1af65e1, type: 2}
+  - {fileID: 11400000, guid: e769734042d93494e8d1ebcd039d21cf, type: 2}
+  - {fileID: 11400000, guid: 70a7eb30f83004e2fa2fa2acf97b430f, type: 2}
+  - {fileID: 11400000, guid: 8a03574e80d6848bea79151db4d3a3c9, type: 2}
+  timeBetweenWaves: 0.5
   isLooping: 1
 --- !u!4 &1532806021
 Transform:
